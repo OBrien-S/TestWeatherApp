@@ -1,0 +1,123 @@
+
+
+html{
+		height: auto;
+		box-sizing: border-box;
+		
+		}
+
+body{
+	  height: 100%;
+	  width: 100%;
+    background-image: url(Jungle.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+             
+    }
+  
+#logo.png{
+	
+    margin-top: auto;
+    margin-left: 0.1cm;
+    margin-right: 15.2cm;
+    margin-block-start: initial;
+    margin-block-end: auto;
+    max-width: inherit;
+    opacity: 100%;
+}
+div.contact{
+ max-width: 800px;
+    max-height: 1500px;
+    background-color: rgba(27, 31, 34, 0.85);
+    margin: 28px 2px;
+    margin-top: 10px;
+		margin-right:10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 0;
+    padding: 20px;
+    transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
+    padding:3.5rem 8.5rem 13.5rem 7.5rem;
+    position: relative;
+    width: 50rem;
+    border-radius: 4px;
+		background-position:center;
+		 vertical-align: baseline;
+        }
+/*@media only screen and (max-width: 400px){
+        div.contact{
+            display: fl;
+            flex-direction: column;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+
+        }}*/
+.contact{
+	color: wheat;
+}
+div.contact p{
+    font-size: 40px;
+    font-optical-sizing: inherit;
+    font-family: Arial, Helvetica, sans-serif;  
+    text-align: center;
+    margin-bottom: 10px;
+    color: black;
+    letter-spacing: 0.5px;
+}
+
+.input, .message .text{
+    width: 100%;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    border: 5px inset wheat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 25pc;
+    //outline: none;
+}
+
+.info .input{
+    width: 48.5%;
+    float: left;
+    margin-left: 0;
+    margin-right: 3%;
+}
+
+.info .input:last-child{
+    margin-right: 0%;
+}
+
+.message .text{
+    height: 150px;
+    resize: none;
+}
+
+button{
+    width: 50%;
+    height: 40px;  //25px
+    font-size: 16px;
+    padding: 2.5px 35px;
+    background-color: whitesmoke;
+    color: black;
+    border: 7px solid wheat; //3px
+    text-align: center;
+    transition-duration: 0.4s;
+    float: center;
+    margin-left: 25%;
+    cursor: pointer;
+    line-height: 20px;
+    border-radius: 2pc; //2pc
+}
+   
+
+    header.con{
+        background-attachment: fixed;
+        background-size: cover;
+        background-repeat: repeat-y;
+    }
+
+ 
